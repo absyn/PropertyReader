@@ -1,3 +1,5 @@
+package propertyreader;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,10 +10,10 @@
  *
  * @author a.belovol
  */
-public class ServerProps {
-    public static String getProperty_Server(){
-        String property_server = "192.168.1.246";   
-        return property_server;
-    }
-}
+public class MBoxProps {
 
+    public static int getSmtpPort() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}

@@ -18,6 +18,8 @@ public class MS {
         String mail = "e-mail";
         mail = LdapReader.getUserMail("a.belovol");
         System.out.println(mail);
+        
+        
     }
     
 }

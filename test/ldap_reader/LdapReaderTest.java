@@ -6,7 +6,7 @@ package ldap_reader;
  * and open the template in the editor.
  */
 
-import ldap_reader.LdapReader;
+//import ldap_reader.LdapReader;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -65,6 +65,15 @@ public class LdapReaderTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+    }
+    
+    @Test
+    public void testGetUserMail_abelovol() {
+        System.out.println("getUserMail");
+        String user = "a.belovol";
+        String expResult = "a.belovol@synevo.com.ua";
+        String result = LdapReader.getUserMail(user);
+        assertEquals(expResult, result);
     }
     
 }

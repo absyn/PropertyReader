@@ -1,3 +1,5 @@
+package propertyreader;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -44,7 +46,7 @@ public class ManagementSystem {
         } 
     }
     
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
         // определяем текущий каталог
 //        File currentDir = new File(".");
 //        try {
@@ -86,5 +88,5 @@ public class ManagementSystem {
 //            String tmp = ServerProps.getProperty_Server();
             System.out.println(ServerProps.getProperty_Server());
             System.out.println(UserProps.getFullName());
-    }
+    }*/
 }

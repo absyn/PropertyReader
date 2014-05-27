@@ -1,3 +1,4 @@
 /src/my.properties
 *.class
 *.properties
+/dist/
