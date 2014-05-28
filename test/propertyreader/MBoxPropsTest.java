@@ -1,3 +1,5 @@
+package propertyreader;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -46,11 +48,11 @@ public class MBoxPropsTest {
     @Test
 //    public void testMBoxProps {
     public void getSmtpPort(){
-        int smtpport = 25;   
+        String smtpport = "25";   
         System.out.println("getSmtpPort");
-        int expResult = 25;
-//        int result = 25;
-        int result = MBoxProps.getSmtpPort();
+        String expResult = "25";
+//        String result = 25;
+        String result = MBoxProps.getSmtpPort();
         assertEquals(expResult, result);
     }
 }

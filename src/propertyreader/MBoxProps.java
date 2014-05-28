@@ -12,8 +12,13 @@ package propertyreader;
  */
 public class MBoxProps {
 
-    public static int getSmtpPort() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public static String getSmtpPort() {
+        String port;
+        port = PropertyReader.getSmtpPort();
+        System.out.println("MBoxProps " + PropertyReader.getSmtpPort());
+        System.out.println("MBoxProps " + port);
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return port;
     }
     
 }

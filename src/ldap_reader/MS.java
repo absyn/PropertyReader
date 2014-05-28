@@ -2,6 +2,7 @@ package ldap_reader;
 
 
 import ldap_reader.LdapReader;
+import propertyreader.MBoxProps;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,7 +20,7 @@ public class MS {
         mail = LdapReader.getUserMail("a.belovol");
         System.out.println(mail);
         
-        
+        System.out.println(MBoxProps.getSmtpPort());
     }
     
 }
